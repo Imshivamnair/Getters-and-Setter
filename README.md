@@ -52,4 +52,4 @@ person.setLastName('Smith');
 console.log(person.getFirstName()); // Output: Jane
 console.log(person.getLastName());  // Output: Smith
 
-In this example, the Person constructor function has private variables _firstName and _lastName, and it provides getters and setters to access and modify these values. The use of getters and setters allows for controlled access and modification of the object's properties. Note that the names of the getters and setters do not necessarily have to match the variable names; it's a common convention to use get 
+In this example, the Person constructor function has private variables _firstName and _lastName, and it provides getters and setters to access and modify these values. The use of getters and setters allows for controlled access and modification of the object's properties. Note that the names of the getters and setters do not necessarily have to match the variable names; it's a common convention to use get and set prefixes.
